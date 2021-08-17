@@ -1,0 +1,32 @@
+{
+  "name": "hello-m-cli",
+  "version": "1.0.1",
+  "description": "a study cli",
+  "main": "index.js",
+  "bin": {
+    "m-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meilinch123",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "cli"
+  ],
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  }
+}
